@@ -13,3 +13,11 @@
   - 깊이 우선 탐색 (DFS) 
   - 넓이 우선 탐색 (BFS)
   - 다익스트라 (Dijikstra)
+
+### 그래프 (Graph)
+
+#### 넓이 우선 탐색 (BFS)
+![graph-basic](./img/01-graph.png)
+
+#### 다익스트라 (Dijikstra)
+![graph-weight](./img/02-graph.png)

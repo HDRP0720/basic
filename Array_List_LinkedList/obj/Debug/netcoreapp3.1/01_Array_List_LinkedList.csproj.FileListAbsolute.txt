@@ -11,3 +11,4 @@ D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_Linke
 D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.dll
 D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.pdb
 D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.genruntimeconfig.cache
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.csproj.AssemblyReference.cache
