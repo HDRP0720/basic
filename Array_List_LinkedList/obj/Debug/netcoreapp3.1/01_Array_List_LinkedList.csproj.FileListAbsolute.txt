@@ -1,0 +1,13 @@
+D:\Basic\Basic\Array_List_LinkedList\bin\Debug\netcoreapp3.1\01_Array_List_LinkedList.exe
+D:\Basic\Basic\Array_List_LinkedList\bin\Debug\netcoreapp3.1\01_Array_List_LinkedList.deps.json
+D:\Basic\Basic\Array_List_LinkedList\bin\Debug\netcoreapp3.1\01_Array_List_LinkedList.runtimeconfig.json
+D:\Basic\Basic\Array_List_LinkedList\bin\Debug\netcoreapp3.1\01_Array_List_LinkedList.runtimeconfig.dev.json
+D:\Basic\Basic\Array_List_LinkedList\bin\Debug\netcoreapp3.1\01_Array_List_LinkedList.dll
+D:\Basic\Basic\Array_List_LinkedList\bin\Debug\netcoreapp3.1\01_Array_List_LinkedList.pdb
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.AssemblyInfoInputs.cache
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.AssemblyInfo.cs
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.csproj.CoreCompileInputs.cache
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.dll
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.pdb
+D:\Basic\Basic\Array_List_LinkedList\obj\Debug\netcoreapp3.1\01_Array_List_LinkedList.genruntimeconfig.cache
