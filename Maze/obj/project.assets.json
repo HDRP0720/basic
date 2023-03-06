@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Basic\\Basic\\Maze\\03-Maze.csproj",
-      "projectName": "03-Maze",
-      "projectPath": "D:\\Basic\\Basic\\Maze\\03-Maze.csproj",
+      "projectUniqueName": "D:\\Basic\\Basic\\Maze\\Maze.csproj",
+      "projectName": "Maze",
+      "projectPath": "D:\\Basic\\Basic\\Maze\\Maze.csproj",
       "packagesPath": "C:\\Users\\I_POSTURE_01\\.nuget\\packages\\",
       "outputPath": "D:\\Basic\\Basic\\Maze\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,14 @@
+D:\Basic\Basic\Maze\bin\Debug\netcoreapp3.1\Maze.exe
+D:\Basic\Basic\Maze\bin\Debug\netcoreapp3.1\Maze.deps.json
+D:\Basic\Basic\Maze\bin\Debug\netcoreapp3.1\Maze.runtimeconfig.json
+D:\Basic\Basic\Maze\bin\Debug\netcoreapp3.1\Maze.runtimeconfig.dev.json
+D:\Basic\Basic\Maze\bin\Debug\netcoreapp3.1\Maze.dll
+D:\Basic\Basic\Maze\bin\Debug\netcoreapp3.1\Maze.pdb
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.csproj.AssemblyReference.cache
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.GeneratedMSBuildEditorConfig.editorconfig
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.AssemblyInfoInputs.cache
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.AssemblyInfo.cs
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.csproj.CoreCompileInputs.cache
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.dll
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.pdb
+D:\Basic\Basic\Maze\obj\Debug\netcoreapp3.1\Maze.genruntimeconfig.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gZNo4uJR+aMNn40F18ERQ/7glrCsMVREv4s+WobNo4cKVh1X2EgdbARFdlwLi+1bRFUPxGuFRycDBTdo85hkOQ==",
+  "dgSpecHash": "ClefpiiErPEwA8BKs66eLhze83XIlQHI8Ry4T/fTCqhuUugNZXfDMPxjLfS6nnQT0W9kgCc8/jjtC3IqtXeZ2g==",
   "success": true,
-  "projectFilePath": "D:\\Basic\\Basic\\Maze\\03-Maze.csproj",
+  "projectFilePath": "D:\\Basic\\Basic\\Maze\\Maze.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

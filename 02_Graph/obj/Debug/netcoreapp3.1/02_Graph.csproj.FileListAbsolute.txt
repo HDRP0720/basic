@@ -1,0 +1,13 @@
+D:\Basic\Basic\02_Graph\bin\Debug\netcoreapp3.1\02_Graph.exe
+D:\Basic\Basic\02_Graph\bin\Debug\netcoreapp3.1\02_Graph.deps.json
+D:\Basic\Basic\02_Graph\bin\Debug\netcoreapp3.1\02_Graph.runtimeconfig.json
+D:\Basic\Basic\02_Graph\bin\Debug\netcoreapp3.1\02_Graph.runtimeconfig.dev.json
+D:\Basic\Basic\02_Graph\bin\Debug\netcoreapp3.1\02_Graph.dll
+D:\Basic\Basic\02_Graph\bin\Debug\netcoreapp3.1\02_Graph.pdb
+D:\Basic\Basic\02_Graph\obj\Debug\netcoreapp3.1\02_Graph.GeneratedMSBuildEditorConfig.editorconfig
+D:\Basic\Basic\02_Graph\obj\Debug\netcoreapp3.1\02_Graph.AssemblyInfoInputs.cache
+D:\Basic\Basic\02_Graph\obj\Debug\netcoreapp3.1\02_Graph.AssemblyInfo.cs
+D:\Basic\Basic\02_Graph\obj\Debug\netcoreapp3.1\02_Graph.csproj.CoreCompileInputs.cache
+D:\Basic\Basic\02_Graph\obj\Debug\netcoreapp3.1\02_Graph.dll
+D:\Basic\Basic\02_Graph\obj\Debug\netcoreapp3.1\02_Graph.pdb
+D:\Basic\Basic\02_Graph\obj\Debug\netcoreapp3.1\02_Graph.genruntimeconfig.cache

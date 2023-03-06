@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Basic\\Basic\\Basic\\Basic.csproj",
-      "projectName": "Basic",
-      "projectPath": "D:\\Basic\\Basic\\Basic\\Basic.csproj",
+      "projectUniqueName": "D:\\Basic\\Basic\\03_DFS_BFS_Dijikstra\\03_DFS_BFS_Dijikstra.csproj",
+      "projectName": "03_DFS_BFS_Dijikstra",
+      "projectPath": "D:\\Basic\\Basic\\03_DFS_BFS_Dijikstra\\03_DFS_BFS_Dijikstra.csproj",
       "packagesPath": "C:\\Users\\I_POSTURE_01\\.nuget\\packages\\",
-      "outputPath": "D:\\Basic\\Basic\\Basic\\obj\\",
+      "outputPath": "D:\\Basic\\Basic\\03_DFS_BFS_Dijikstra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\I_POSTURE_01\\AppData\\Roaming\\NuGet\\NuGet.Config",
