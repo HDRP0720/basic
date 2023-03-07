@@ -1,0 +1,14 @@
+D:\Basic\Basic\04_Tree\bin\Debug\netcoreapp3.1\04_Tree.exe
+D:\Basic\Basic\04_Tree\bin\Debug\netcoreapp3.1\04_Tree.deps.json
+D:\Basic\Basic\04_Tree\bin\Debug\netcoreapp3.1\04_Tree.runtimeconfig.json
+D:\Basic\Basic\04_Tree\bin\Debug\netcoreapp3.1\04_Tree.runtimeconfig.dev.json
+D:\Basic\Basic\04_Tree\bin\Debug\netcoreapp3.1\04_Tree.dll
+D:\Basic\Basic\04_Tree\bin\Debug\netcoreapp3.1\04_Tree.pdb
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.csproj.AssemblyReference.cache
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.AssemblyInfoInputs.cache
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.AssemblyInfo.cs
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.csproj.CoreCompileInputs.cache
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.dll
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.pdb
+D:\Basic\Basic\04_Tree\obj\Debug\netcoreapp3.1\04_Tree.genruntimeconfig.cache

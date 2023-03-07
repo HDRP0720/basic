@@ -31,7 +31,8 @@ namespace Maze
 
             // RandomMovePathFinding();
             // RightHandPathFinding();
-            BFSPathFinding();
+            // BFSPathFinding();
+            AStarPathFinding();
         }
         private void RandomMovePathFinding()
         {
@@ -65,6 +66,7 @@ namespace Maze
                 }
             }
         }
+
         private void RightHandPathFinding()
         {
             // Because enum Dir order is up, left, down, right, up-direction is assumed as front state
@@ -105,6 +107,7 @@ namespace Maze
                 }
             }
         }
+
         private void BFSPathFinding()
         {
             int[] deltaY = new int[] { -1, 0, 1, 0 };
@@ -143,6 +146,10 @@ namespace Maze
                 }
             }
 
+            CalcPathFromParent(parent);
+        }
+        private void CalcPathFromParent(Pos[,] parent)
+        {
             int y = _board.DestY;
             int x = _board.DestX;
             while (parent[y, x].Y != y || parent[y, x].X != x)
@@ -156,13 +163,108 @@ namespace Maze
             _points.Reverse();
         }
 
+        private struct PQNode : IComparable<PQNode>
+        {
+            public int F;
+            public int G;
 
-        const int MOVE_TICK = 10;
+            public int Y;
+            public int X;
+
+            public int CompareTo( PQNode other)
+            {
+                if (F == other.F) return 0;
+
+                return F < other.F ? 1 : -1;
+            }
+        }
+        private void AStarPathFinding()
+        {
+            // Counter-clockwise [U L D R UL DL DR UR] with diagonal
+            int[] deltaY = new int[] { -1, 0, 1, 0, -1, 1, 1, -1 };
+            int[] deltaX = new int[] { 0, -1, 0, 1, -1, -1, 1, 1 };
+            int[] movingCost = new int[] { 10, 10, 10, 10, 14, 14, 14, 14 };
+
+            // Count scores
+            // F = G + H
+
+            // (y, x) check already visited (visited = closed state)
+            bool[,] closed = new bool[_board.Size, _board.Size];
+
+            // (y, x) if find the path -> F=G+H , or not -> MaxValue
+            int[,] open = new int[_board.Size, _board.Size];
+            for (int y = 0; y < _board.Size; y++)
+                for (int x = 0; x < _board.Size; x++)
+                    open[y, x] = Int32.MaxValue;
+
+            Pos[,] parent = new Pos[_board.Size, _board.Size];
+          
+            // Structure to find the best candidate amongst data in open list; open[,]
+            PriorityQueue<PQNode> pq = new PriorityQueue<PQNode>();
+
+            // begin with startPoint (process closed list; closed[,])
+            open[PosY, PosX] = 10 * (Math.Abs(_board.DestY - PosY) + Math.Abs(_board.DestX - PosX));
+            pq.Push(new PQNode() { F = 10 * (Math.Abs(_board.DestY - PosY) + Math.Abs(_board.DestX - PosX)), G=0, Y=PosY, X=PosX });
+            parent[PosY, PosX] = new Pos(PosY, PosX);
+
+            while (pq.Count > 0)
+            {
+                // Check the best candidate
+                PQNode node = pq.Pop();
+
+                // Check multiple route at the same coord, skip if already visited via another faster route
+                if (closed[node.Y, node.X]) continue;
+
+                // Process closed list; closed[,] with true value
+                closed[node.Y, node.X] = true;
+
+                // Exit when it reached the destination
+                if (node.Y == _board.DestY && node.X == _board.DestX) break;
+
+                // Check already in closed list at next coord with all directions
+                for (int i = 0; i < deltaY.Length; i++)
+                {
+                    int nextY = node.Y + deltaY[i];
+                    int nextX = node.X + deltaX[i];
+
+                    // Check coord beyound board
+                    if (nextX < 0 || nextX >= _board.Size || nextY < 0 || nextY >= _board.Size) continue;
+
+                    // Check next coord is wall
+                    if (_board.Tile[nextY, nextX] == Board.TileType.Wall) continue;
+
+                    // Check next coord already booked
+                    if (closed[nextY, nextX]) continue;
+
+                    // Calculate F cost -> G = movingCost, H = width + height at the coord
+                    int g = node.G + movingCost[i];
+                    int h = 10 * (Math.Abs(_board.DestY - nextY) + Math.Abs(_board.DestX - nextX));
+
+                    // Check another faster route exist
+                    if (open[nextY, nextX] < g + h) continue;
+
+                    // Add the coord as a candidate
+                    open[nextY, nextX] = g + h;
+                    pq.Push(new PQNode() { F = g + h, G = g, Y = nextY, X = nextX });
+                    parent[nextY, nextX] = new Pos(node.Y, node.X);
+                }
+            }
+
+            CalcPathFromParent(parent);
+        }
+
+        const int MOVE_TICK = 30;
         int _sumTick = 0;
         int _lastIndex = 0;
         public void Update(int deltaTick)
         {
-            if (_lastIndex >= _points.Count) return;
+            if (_lastIndex >= _points.Count) // return;
+            {
+                _lastIndex = 0;
+                _points.Clear();
+                _board.Initialize(_board.Size, this);
+                Initialize(1,1, _board);
+            }
 
             _sumTick += deltaTick;
             if (_sumTick >= MOVE_TICK)

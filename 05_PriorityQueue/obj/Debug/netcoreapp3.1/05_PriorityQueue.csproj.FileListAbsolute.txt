@@ -1,0 +1,14 @@
+D:\Basic\Basic\05_PriorityQueue\bin\Debug\netcoreapp3.1\05_PriorityQueue.exe
+D:\Basic\Basic\05_PriorityQueue\bin\Debug\netcoreapp3.1\05_PriorityQueue.deps.json
+D:\Basic\Basic\05_PriorityQueue\bin\Debug\netcoreapp3.1\05_PriorityQueue.runtimeconfig.json
+D:\Basic\Basic\05_PriorityQueue\bin\Debug\netcoreapp3.1\05_PriorityQueue.runtimeconfig.dev.json
+D:\Basic\Basic\05_PriorityQueue\bin\Debug\netcoreapp3.1\05_PriorityQueue.dll
+D:\Basic\Basic\05_PriorityQueue\bin\Debug\netcoreapp3.1\05_PriorityQueue.pdb
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.csproj.AssemblyReference.cache
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.AssemblyInfoInputs.cache
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.AssemblyInfo.cs
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.csproj.CoreCompileInputs.cache
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.dll
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.pdb
+D:\Basic\Basic\05_PriorityQueue\obj\Debug\netcoreapp3.1\05_PriorityQueue.genruntimeconfig.cache
